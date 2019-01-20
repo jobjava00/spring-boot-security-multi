@@ -1,0 +1,5 @@
+dependencies {
+    compile project(':security-domain')
+    compile 'org.springframework.boot:spring-boot-starter-thymeleaf'
+    compile 'org.springframework.boot:spring-boot-starter-web'
+}

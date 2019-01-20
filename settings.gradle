@@ -1,0 +1,2 @@
+rootProject.name = 'spring-boot-security-multi'
+include 'security-domain', 'security-web', 'security-ldap'

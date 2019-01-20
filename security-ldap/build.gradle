@@ -1,0 +1,8 @@
+dependencies {
+	compile project(':security-domain')
+	compile 'org.springframework.boot:spring-boot-starter-thymeleaf'
+	compile 'org.springframework.boot:spring-boot-starter-web'
+	compile 'org.springframework.ldap:spring-ldap-core'
+	compile 'org.springframework.security:spring-security-ldap'
+	compile 'com.unboundid:unboundid-ldapsdk'	//opensource ldap server
+}
